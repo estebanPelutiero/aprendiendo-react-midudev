@@ -1,12 +1,23 @@
-import './App.css'
-import TwitterFollowCard from './TwitterFollowCard';
+import "./App.css";
+import TwitterFollowCard from "./TwitterFollowCard";
 
 function App() {
   return (
-    <>
-      <TwitterFollowCard userName="midudev" name="Miguel Angel Duran"/>
-      <TwitterFollowCard userName="peeeluuu" name="Esteban Pelutiero"/>
-    </>
+    <section className="app">
+      <TwitterFollowCard
+        userName="midudev"
+        isFollowing
+      >
+        Miguel Angel Duran
+      </TwitterFollowCard>
+
+      <TwitterFollowCard
+        userName="peeeluuu"
+        isFollowing={false}
+      >
+        Esteban Pelutiero
+      </TwitterFollowCard>
+    </section>
   );
 }
 
