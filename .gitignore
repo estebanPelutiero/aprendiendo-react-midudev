@@ -1,0 +1,40 @@
+# Ignorar node_modules en el nivel raíz
+node_modules/
+
+# Ignorar node_modules en cada paquete
+projects/**/node_modules/
+
+# Ignorar archivos de compilación y distribución
+dist/
+build/
+
+# Ignorar archivos de configuración del editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos de configuración de entorno
+*.env
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de caché
+.cache/
+*.tmp
+
+# Ignorar archivos generados por herramientas de empaquetado
+*.tgz
+*.gz
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos específicos del sistema operativo
+*.swp
+*.swo
+
+# Ignorar configuraciones de pruebas
+coverage/
